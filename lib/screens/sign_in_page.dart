@@ -148,9 +148,7 @@ class SignInPage extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
-              height: 24,
-            ),
+        
             TextButton(
               style: TextButton.styleFrom(
                 textStyle: GoogleFonts.roboto(
@@ -164,9 +162,7 @@ class SignInPage extends StatelessWidget {
               },
               child: const Text('¿olvidaste tu contraseña?'),
             ),
-            SizedBox(
-              height: 46,
-            ),
+        
             Text('Puedes iniciar sesión con',
                 style: GoogleFonts.roboto(color: Colors.grey[500])),
             SizedBox(

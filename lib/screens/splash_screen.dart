@@ -38,7 +38,7 @@ class SplashScreen extends StatelessWidget {
                             animatedTexts: [
                               TypewriterAnimatedText(
                                   '< Developers Community />',
-                                  speed: Duration(milliseconds: 250),
+                                  speed: Duration(milliseconds: 150),
                                   textStyle: title_diamond_notation)
                             ],
                             isRepeatingAnimation: true,
